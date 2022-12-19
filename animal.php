@@ -17,4 +17,8 @@ class Animal
     {
         echo $this->name . ': ' . $this->age . ': ' . $this->color;
     }
+
+    public function test()
+    {
+    }
 }
