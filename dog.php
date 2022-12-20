@@ -15,6 +15,11 @@ class Dog extends Animal
     {
         echo parent::show() . $this->scream();
     }
+
+    public function attack()
+    {
+        echo 'Dog attack !!!';
+    }
 }
 
 $dog = new Dog('Mickey', '2', 'black');
