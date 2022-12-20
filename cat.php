@@ -19,6 +19,11 @@ class Cat extends Animal
     {
         echo 'Cat attack !!!';
     }
+
+    public function chase()
+    {
+        echo 'Cat chase Mouse';
+    }
 }
 
 $cat = new Cat('Tom', 1, 'White');
