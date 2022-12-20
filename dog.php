@@ -20,6 +20,11 @@ class Dog extends Animal
     {
         echo 'Dog attack !!!';
     }
+
+    public function chase()
+    {
+        echo 'Dog chase Cat';
+    }
 }
 
 $dog = new Dog('Mickey', '2', 'black');
