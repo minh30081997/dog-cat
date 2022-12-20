@@ -20,5 +20,6 @@ class Animal
 
     public function test()
     {
+        echo 'animal test';
     }
 }
