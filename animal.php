@@ -15,7 +15,7 @@ class Animal
 
     public function show()
     {
-        echo $this->name . ': ' . $this->age . ': ' . $this->color;
+        echo $this->name . ': ' . $this->age . ' ' . $this->color . ' ';
     }
 
     public function test()
